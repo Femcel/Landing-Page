@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: pink;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: powderblue;
+}
