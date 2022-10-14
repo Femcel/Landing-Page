@@ -30,6 +30,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:whitesmoke;
 
     margin: 128px;
     gap: 16px
@@ -37,18 +38,43 @@ ul {
 img#groupimage {
   max-width: 50vw;
 }
-.section-1.text {
-    max-width: 40vw;
-}
+
 
 .section-2{
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  background-color:yellowgreen;
 }
 
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 32px;
+  background-color:bisque;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 32px;
+  background-color:aqua;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background-color: blueviolet;
+}
+h2#quote{
+    max-width: 60vw;
+}
 
 a, a:link, a:visited {
   text-decoration: none;
