@@ -13,6 +13,10 @@ body {
     max-height: 100px;
 }
 
+.content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
 .header, ul, .section-1, .section-3, .section-4, .footer {
     display: flex;
     align-items: center;
@@ -77,8 +81,10 @@ div#text1 {
   justify-content: flex-end;
 }
 /**/
-.section-4 {
+div.section-4 {
   background-color:aqua;
+  display: flex;
+  justify-content: space-evenly;
 }
 /**/
 .footer {
