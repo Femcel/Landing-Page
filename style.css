@@ -3,7 +3,7 @@
   padding: 0px;
 }
 
-
+/* dbd3c9 b4ceb3 88a0a8 546a76 */
 body {
   font-weight: normal;
   font-family: 'PT Sans', sans-serif;
@@ -28,12 +28,13 @@ body {
 .header {
   padding: 0;
   justify-content: space-around;
-  background-color: pink;
+  background-color: #fad4d8;
+  
 }
 
 /**/
 .section-1 {
-    background-color:whitesmoke;
+    background-color: #fad4d8;
 }
 
 img#groupimage {
