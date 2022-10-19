@@ -3,7 +3,7 @@
   padding: 0px;
 }
 
-/* dbd3c9 b4ceb3 88a0a8 546a76 */
+/*     */
 body {
   font-weight: normal;
   font-family: 'PT Sans', sans-serif;
@@ -49,7 +49,7 @@ div#text1 {
 .section-2{
   flex-direction: column;
   padding: 32px;
-  background-color:yellowgreen;
+  background-color: #b4ceb3;
 }
 
 .title-2 {
@@ -69,9 +69,10 @@ div#text1 {
 .image-2 img, .text-2 h6{
   max-width: 150px;
 }
+
 /**/
 .section-3 {
-  background-color:bisque;
+  background-color: #88a0a8;
 }
 #quote {
   max-width: 60vw;
@@ -83,20 +84,20 @@ div#text1 {
 }
 /**/
 div.section-4 {
-  background-color:aqua;
+  background-color: #546a76;
   display: flex;
   justify-content: space-evenly;
 }
 /**/
 .footer {
   margin-top: auto;
-  background-color: blueviolet;
+  background-color: #9b5094;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    gap: 16px;
+  list-style-type: none;
+  padding: 0;
+  gap: 16px;
 }
 
 a, a:link, a:visited {
@@ -106,4 +107,8 @@ a, a:link, a:visited {
 
 a:hover {
   color: powderblue;
+}
+
+img {
+  border-radius: 10px;
 }
