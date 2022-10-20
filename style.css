@@ -16,6 +16,8 @@ body {
 .content {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  padding-top: 75px;
 }
 .header, ul, .section-1, .section-3, .section-4, .footer {
     display: flex;
@@ -23,6 +25,7 @@ body {
     justify-content: center;
     padding: 32px;
 }
+
 
  /**/
 .header {
