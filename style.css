@@ -93,8 +93,19 @@ div#text1 {
 /**/
 div.section-4 {
   background-color: #546a76;
+}
+
+div.background4 {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #b4ceb3;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+div#text4 {
+  margin-right: 40vw;
 }
 /**/
 .footer {
@@ -120,3 +131,9 @@ a:hover {
 img {
   border-radius: 10px;
 }
+button {
+  background-color: blue;
+  color: red;
+  width: 100px;
+  border-radius:10px;
+}  
